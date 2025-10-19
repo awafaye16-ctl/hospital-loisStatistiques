@@ -188,5 +188,3 @@ Ce projet permet aux étudiants et passionnés de statistique de :
 > — *Awa, Data Enthusiast*
 
 ---
-
-Souhaites-tu que je t’ajoute une **section "Déploiement sur Streamlit Cloud"** (avec le token, le `secrets.toml`, et les étapes précises) pour le rendre encore plus complet ?
