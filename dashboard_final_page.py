@@ -106,12 +106,12 @@ def show():
 
     st.subheader("4️⃣ Interprétation dynamique globale")
     st.markdown(f"""
-- **Arrivées moyennes** : {mean_arrivals:.2f} → nombre moyen de patients par période.  
-- **Temps moyen attente** : {mean_waiting:.2f} jours → si élevé, prévoir renfort personnel.  
-- **Cas graves moyen** : {mean_graves:.2f} → planifier lits et interventions spécifiques.  
-- **Durée moyenne séjour** : {mean_stay:.2f} jours, variance = {var_stay:.2f} → lits à prévoir pour courts et longs séjours.  
-- **Taux succès moyen** : {mean_success:.2f} → suivi de l’efficacité des traitements.  
-- **Examens (Géométrique)** : nombre moyen = {np.mean(exams):.2f} → impact sur temps de diagnostic et ressources.  
+    - **Arrivées moyennes** : {mean_arrivals:.2f} → nombre moyen de patients par période.  
+    - **Temps moyen attente** : {mean_waiting:.2f} jours → si élevé, prévoir renfort personnel.  
+    - **Cas graves moyen** : {mean_graves:.2f} → planifier lits et interventions spécifiques.  
+    - **Durée moyenne séjour** : {mean_stay:.2f} jours, variance = {var_stay:.2f} → lits à prévoir pour courts et longs séjours.  
+    - **Taux succès moyen** : {mean_success:.2f} → suivi de l’efficacité des traitements.  
+    - **Examens (Géométrique)** : nombre moyen = {np.mean(exams):.2f} → impact sur temps de diagnostic et ressources.  
 
-👉 Ce dashboard final permet de visualiser **tous les modules** et d’anticiper **la capacité hospitalière et la charge de travail**, de façon claire et interactive.
-""")
+    👉 Ce dashboard final permet de visualiser **tous les modules** et d’anticiper **la capacité hospitalière et la charge de travail**, de façon claire et interactive.
+    """)
